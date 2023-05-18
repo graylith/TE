@@ -1,0 +1,217 @@
+
+
+.ticketbtn button{
+    padding: 6px 8px;
+    border-radius: 10px;
+    background: transparent;
+    color:white;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.ticketbtn button:hover{
+    background: white;
+    color: black;
+}
+
+.crowd{
+    animation: changeCol 0.7s ease infinite alternate;
+}
+
+@keyframes changeCol {
+    from{
+        filter: grayscale(0%);
+    }
+    to{
+        filter: grayscale(100%);
+    }
+}
+
+.test-desc{
+    background: black;
+    color: white;
+    border-radius: 30px;
+    padding: 20px 30px;
+    width: 60%;
+    font-size: 25px;
+    border:1px solid red;
+}
+
+.container{
+    text-align: center;
+}
+
+.container video{
+    width: 40%;
+    animation: incSize 5s ease infinite alternate;
+    
+}
+
+.invertCont{
+    animation: filterInvert 0.5s ease infinite alternate;
+}
+
+@keyframes  incSize {
+    from{
+        width: 40%;
+        
+    }
+    to{
+        width: 55%;
+       
+    }
+}
+
+@keyframes  filterInvert {
+    from{
+        filter: invert(0%);
+    }
+    to{
+        filter: invert(100%);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container video{
+        width: 70%;
+        animation: incSize 3.5s ease infinite alternate;
+        
+    }
+    .invertCont{
+        animation: filterInvert 0.5s ease infinite alternate;
+    }
+    
+    @keyframes  incSize {
+        from{
+            width: 60%;
+           
+        }
+        to{
+            width: 85%;
+           
+        }
+    }
+
+    @keyframes  filterInvert {
+        from{
+            filter: invert(0%);
+        }
+        to{
+            filter: invert(100%);
+        }
+    }
+  }
+
+  .vlt-post-media h1{
+    position: absolute;
+    font-size: 70px;
+    text-decoration: line-through;
+    
+  }
+
+  .vlt-post-media img{
+    filter: grayscale(85%);
+  }
+
+ .headcenter{
+    display: flex;
+
+    justify-content: center;
+ }
+
+
+
+ @media screen and (max-width: 480px) {
+    .vlt-large-heading{
+        font-size: 30px !important;
+    
+    }
+ }
+
+ @media screen and (max-width: 1075px) {
+    .vlt-large-heading{
+        font-size: 100px !important;
+    
+    }
+ }
+
+ @media screen and (max-width: 912px) {
+    .vlt-large-heading{
+        font-size: 70px !important;
+    
+    }
+ }
+
+ @media screen and (max-width: 713px) {
+    .vlt-large-heading{
+        font-size: 50px !important;
+    
+    }
+ }
+
+ @media screen and (max-width: 420px) {
+    .vlt-large-heading{
+        font-size: 40px !important;
+    }
+   
+ }
+
+ .vlt-offcanvas-menu__navigation{
+    background-image: url("/Entertainment/mediaFiles/navgrayback.gif");
+    
+ }
+ .vlt-navbar-logo img{
+    width: 60px !important;
+    height: 8vh !important;
+ }
+/* 
+ #background-spotlight{
+
+ } */
+
+
+
+
+ .innerbox{
+    
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    
+ }
+
+ @media screen and (max-width: 1200px) {
+    .innerbox{
+        margin-top: 30px;
+    }
+
+ }
+
+
+ #homepageVideo{
+    width: 110%;
+    
+ }
+
+ @media screen and (max-width: 1380px) {
+    #homepageVideo{
+        width: auto;
+        
+     }
+    
+ }
+
+
+ .secondSection{
+    background-image: url("/Entertainment/mediaFiles/P9.jpg");
+    background-size: cover;
+    background-position: center center;
+ }
+
+ @media screen and (max-width: 575px) {
+    .secondSection{
+        background:rgb(22, 22, 22);
+     }
+    
+ }

@@ -1,0 +1,113 @@
+.about-landing .about-heading {
+    margin-top: 15vh;
+    margin-block-end: 20vh;
+}
+
+.landing-banner {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.landing-banner-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.landing-banner-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-description {
+    margin-block-start: 20vh;
+    margin-block-end: 20vh;
+}
+
+.about-description-inner.desc2 p {
+    margin-top: 10vh;
+}
+
+.aboutvs-section .aboutvs-inner {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 0 8vw;
+}
+
+.aboutvs-section .aboutvs-inner .vs-item {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    overflow: hidden;
+}
+
+.aboutvs-section .aboutvs-inner .vs-item:last-child {
+    margin-block-start: 25%;
+}
+
+.aboutvs-section .aboutvs-inner .vs-item img {
+    width: 38vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.banner {
+    height: 130vh;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.banner .banner-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pre-footer {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30vh 0;
+}
+
+.new-our-clients {
+    margin-top: 40vh;
+}
+
+@media (max-width: 1024px) {
+    p br {
+        display: none !important;
+    }
+    .landing-banner {
+        height: 100%;
+    }
+    .banner {
+        height: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .aboutvs-section .aboutvs-inner {
+        flex-flow: column;
+        padding: 0 10vw;
+    }
+    .aboutvs-section .aboutvs-inner .vs-item img {
+        width: 100%;
+    }
+    .about-landing .about-heading {
+        margin-block-end: 8vh;
+    }
+    .about-description {
+        margin-block-start: 10vh;
+        margin-block-end: 10vh;
+    }
+    .about-description-inner.desc2 p {
+        margin-top: 6vh;
+    }
+}

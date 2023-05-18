@@ -1,0 +1,36 @@
+ <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.054" height="44.054"
+        viewBox="0 0 44.054 44.054">
+        <defs>
+            <style>
+                .a {
+                    fill: url(#a);
+                }
+
+                .b {
+                    fill: #2257ff;
+                }
+
+                .c {
+                    fill: #31a7ff;
+                }
+
+                .d {
+                    fill: #fff;
+                }
+            </style>
+            <radialGradient id="a" cx="-0.081" cy="-0.017" r="1.357" gradientTransform="translate(0.041) scale(0.918 1)"
+                gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#c1ffff" />
+                <stop offset="0.999" stop-color="#40dbff" />
+            </radialGradient>
+        </defs>
+        <path class="a"
+            d="M251.627,333.185l-12.716,7.059-11.221-6.229a6.99,6.99,0,0,1-3.6-6.111V313.926l27.191,15.237a6.8,6.8,0,0,1,.831.555l.009.009A2.192,2.192,0,0,1,251.627,333.185Z"
+            transform="translate(-224.094 -313.926)" />
+        <path class="b"
+            d="M260.195,423.4c-.063.042-.129.081-.195.117l-6.4,3.551a5.272,5.272,0,0,1-5.241-.07l-13.192-7.791,11.864-6.586,12.994,7.215A2.1,2.1,0,0,1,260.195,423.4Z"
+            transform="translate(-232.218 -386.305)" />
+        <path class="c"
+            d="M295.814,379.168v10.01a6.19,6.19,0,0,1-2.993,5.3,2.1,2.1,0,0,0-.165-3.563L279.662,383.7l12.716-7.059a2.192,2.192,0,0,0,.5-3.458,7.56,7.56,0,0,1,2.939,5.986Z"
+            transform="translate(-264.844 -357.381)" />
+    </svg>

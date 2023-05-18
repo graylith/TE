@@ -1,0 +1,213 @@
+.main-container {
+    padding: 10vh 0;
+}
+
+.contact-landing .contact-heading {
+    margin-top: 15vh;
+}
+
+.input-wrap {
+    margin: 5vh 0;
+}
+
+.input-wrap input, .input-wrap textarea {
+    background-color: #FFFFFF;
+    border: 2px solid #EAEEF5;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 0 2rem;
+    height: 72px;
+    transition: all 0.3s;
+    letter-spacing: 0.5px;
+}
+
+.input-wrap textarea {
+    height: auto;
+    padding: 2rem 2rem;
+}
+
+.input-wrap input::placeholder, .input-wrap textarea::placeholder {
+    text-align: left;
+    font-size: 24px;
+    color: #BCBFC3;
+    font-family: EinaRegular, Arial, Helvetica, sans-serif !important;
+    letter-spacing: 0.5px;
+}
+
+.input-wrap input.input-sm, .input-wrap textarea.input-sm {
+    width: 608px;
+}
+
+.input-wrap input.input-lg, .input-wrap textarea.input-lg {
+    width: 813px !important;
+}
+
+.input-wrap button {
+    font-size: 30px;
+    font-family: EinaRegular, Arial, Helvetica, sans-serif !important;
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 50px;
+    height: 72px;
+    padding: 0 35px;
+    letter-spacing: 0.5px;
+    border: 0;
+    transition: all 0.3s;
+    border: 3px solid var(--black);
+    cursor: pointer;
+}
+
+.input-wrap button:hover {
+    color: var(--black);
+    background-color: #FFFFFF;
+    border-color: #EAEEF5;
+}
+
+.input-budget {
+    position: relative;
+}
+
+.input-budget::after {
+    position: absolute;
+    content: attr(data-placeholder);
+    top: 13px;
+    margin-left: -90px;
+    font-size: 30px;
+}
+
+.new-our-clients {
+    margin-top: 15vh;
+}
+
+.banner-wrap {
+    margin-top: 5vh;
+}
+
+@media (max-width: 1440px) {
+    .input-wrap input.input-sm, .input-wrap textarea.input-sm {
+        width: 42.222vw !important;
+    }
+
+    .input-wrap input.input-lg {
+        width: 56.458vw !important;
+    }
+
+    .input-wrap input::placeholder, .input-wrap textarea::placeholder, .input-wrap input, .input-wrap textarea, .input-wrap button {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .input-wrap input.input-sm, .input-wrap input.input-lg, .input-wrap textarea.input-sm, .input-wrap textarea.input-lg {
+        width: 100% !important;
+    }
+
+    .input-budget::after {
+        font-size: 24px;
+    }
+}
+
+.category-row {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.category-row .category-select-item {
+    background: #F4F6FA;
+    padding: 0 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    margin-inline-end: 1em;
+    margin-block-start: 1em;
+}
+
+.category-row .category-select-item a {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.category-row .category-select-item:hover {
+    background-color: #f9f9f9;
+}
+
+.category-row .category-select-item.active {
+    background-color: var(--black);
+}
+
+.category-row .category-select-item.active a {
+    color: var(--white);
+}
+
+.category-heading {
+    font-size: 30px;
+    color: #BCBFC3;
+    letter-spacing: 0.5px;
+    margin: 5vh 0;
+}
+
+@media (max-width: 1440px) {
+    .category-row .category-select-item {
+        padding: 2rem 2rem;
+    }
+
+    .category-row .category-select-item a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 550px) {
+    .category-row .category-select-item a {
+        font-size: 14px;
+    }
+
+    .input-wrap input::placeholder, .input-wrap textarea::placeholder, .input-wrap input, .input-wrap textarea, .input-wrap button {
+        font-size: 16px;
+    }
+
+    .input-budget::after {
+        font-size: 16px;
+        top: 24px;
+        margin-left: -64px;
+    }
+}
+
+@media (max-width: 375px) {
+    .category-row .category-select-item {
+        margin-inline-end: 0;
+    }
+}
+
+.banner-inner {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.banner-inner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.our-clients-heading {
+    margin-bottom: 15vh;
+}
+
+@media (max-width: 1024px) {
+    .banner-inner {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-wrap {
+        margin-top: 20vh;
+    }
+}
